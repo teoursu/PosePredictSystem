@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+
+<body>
+    <hr>
+    <h1>SignUp Page</h1><br>
+    <div class="login">
+        <form id="signup" action="process.php">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="Uname" required>
+            <span id="emailValidation"></span>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="Pass" required>
+
+            <button type="GET" class="logInButton">SignUp</button>
+            <a href="index.php" class="logInButton" name="Log In">&nbsp Back &nbsp</a>
+            <br><br>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
